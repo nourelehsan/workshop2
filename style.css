@@ -1,0 +1,523 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+}
+
+  .body{
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+    
+    
+  }
+  
+  .navbar a,.dropdown{
+    display: inline-block;
+    font-size: 21px;
+    color:#C5C5C5;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .4s;
+    position: relative;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+    
+  }
+
+  .content a {
+    float: none;
+    color:#C5C5C5;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+
+  .dropdown:hover .content {
+    display: block;
+  }
+
+  .content a:hover {
+    background-color: #E4E4E4;
+ }
+
+ 
+ .drop {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: 18px;
+    color:#C5C5C5;
+    transition: .4;
+    cursor: pointer;
+ }
+
+ .content :hover{
+    color: #16BAA4;
+    transition: .4;
+}
+
+.drop:hover{
+    color: #16BAA4;
+    transition: .4;
+}
+
+.navbar ,a:hover{
+    color: #16BAA4;
+    transition: .4;
+}
+
+#first{
+    display:center;
+}
+
+#logo1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 60px;
+    margin-bottom: 30px;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index:1;
+}
+
+.main{
+  
+  margin:0px;
+  padding:0px;
+}
+
+.span{
+    color: #16BAA4;
+}
+
+.head{
+    line-height: 20px;
+    max-width: 20px;
+}
+
+#logo{
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+#logo1{
+    margin-top: 75px;
+    width: 40px;
+    height: 40px;
+}
+
+h2{
+ font-family: "work sans",Arial, sans-serif;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 300;
+  font-style: normal;
+  font-kerning: auto;
+  font-stretch: 100%;
+  color: #16BAA4;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1;
+  width: 100%;
+  gap:20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #747474;
+}
+
+.col1{
+   
+    grid-row-start:1 ;
+    grid-column-start: 2;
+   grid-column-end: 2;
+   font-size: 16px;
+  }
+
+  .col2{
+    grid-column-start:3 ;
+    
+    margin-top: 0px;
+    font-size: 16px;
+  }
+
+ 
+  
+  .box{
+   display: flex;
+   width: 94%;
+   justify-content: center; 
+   gap: 20px;
+   margin: 40px;
+   padding: 0 20px;
+  
+  }
+
+  .smash{
+    width: 250px;
+    height: 190px;
+    margin: 30px 30px;
+    
+  
+  }
+
+  .for-patient{
+    background-color: #00ccb1;
+    border: none;
+    margin-bottom: px;
+    font-style: bold;
+    
+    border-radius: 10px;
+    
+  }
+
+  .for-doctor{
+    background-color: #3d83df;
+    border: none;
+    margin-bottom: px;
+    font-style: bold;
+    background-color: #3D83DF;
+    border-radius: 10px;
+    
+  }
+
+  .for-clinics{
+    background-color: #1b2734;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: px;
+    
+  }
+
+#patient, #doctor, #clinic{
+    font-size: 20px;
+}
+
+
+.select{
+    background-color: #00ccb1;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    display: block;
+    margin: 20px;
+}
+
+.select1{
+    background-color: #3d83df;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    display: block;
+    margin: 20px;
+}
+
+.select3, .select0{
+    background-color: #1b2734;
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-decoration: underline;
+    display: block;
+    margin: 20px;
+}
+
+#text{
+    font-size: 20px;
+}
+
+.second {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+  
+}
+.second div{
+  width: 50%;
+  display: flex;
+  
+
+}
+
+#logos{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+#logos img{
+
+  width:70px;
+  object-fit: contain;
+  height: 60px;
+}
+
+.third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #d0faf4;
+  padding-left: 50px;
+}
+
+.wow{
+  padding-top: 60px;
+}
+
+.imgs {
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.imgs div{
+  height: 500px;
+  width: 250px;
+}
+
+.columns1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+  
+  
+  
+}
+
+.columns2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  
+}
+
+#L01{
+  margin-bottom: 20px;
+}
+
+#L03{
+  margin-bottom: 20px;
+}
+#L01,#L02,#L04,#L03{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 220px;
+  border-radius: 2px;
+  
+  
+}
+
+#L01 img,#L02 img,#L04 img,#L03 img{
+  width: 25px;
+  height: auto;
+}
+  
+.fourth h1{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color: #42C2BB;
+}
+
+.country{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 141px;
+  gap: 15px;
+  border-radius: 10px;
+  
+}
+
+.country div:hover{
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.country button{
+border-radius: 5px;
+ border: transparent;
+ background: #3D83DF;
+ font-size:13px ;
+ color: white;
+height: 30px;
+margin-top: 15px;
+}
+
+.country button:hover{
+  cursor: pointer;
+}
+.buttons{
+  font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+ 
+
+
+.box p{
+  color: white;
+}
+
+.works{
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 22.75px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 200;
+  display: center;
+  }
+  
+  .third p{ 
+      font-size: 15px;
+      color: #747474;
+      padding-bottom: 50px;
+  }
+
+  .third h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-right: 50px;
+  }
+  
+  .imgs h3{
+    font-size: 25px;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+
+  .imgs p {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+  }
+
+  .fourth p {
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+  }
+
+  .fourth h3 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+    
+  }
+
+  .sixth button {
+    margin-left: 140px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .sixth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  footer p {
+    padding-top: 20px;
+  }
+  
+  select:hover{
+    cursor: pointer;
+  }
+h1{font-family: "work sans",Arial, sans-serif;
+text-align: center;
+font-size: 34px;
+font-weight: 300;
+font-style: normal;
+font-kerning: auto;
+font-stretch: 100%;
+}
+
+.for-clinics:hover{
+    color: white;
+    box-shadow: 0 5px 15px  #afe0f5;
+}
+
+.for-doctors:hover{
+  color: white;
+  box-shadow: 0 5px 15px #afe0f5;
+}
+
+.for-patients:hover{
+  color: white;
+  box-shadow: 0 5px 15px #afe0f5;
+}
